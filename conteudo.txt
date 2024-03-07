@@ -1,0 +1,52 @@
+29/02
+import java.util.Scanner;
+public class Ex02 {
+    public static void main(String[] args) {
+        
+        args[0] = "en"
+
+
+    }
+}
+
+repetidores
+for (int i = 0; i ++; i < 100) {
+    System.out.printf("Valor: ", i);
+}
+
+boolean executar = true;
+int contador = 0;
+String[] letras = new String[] = {"A","B","C"};
+
+while (executar && contador < letras.length) {
+    String letra = letras[contador];
+    System.out.println("Letra: " + letra);
+    contador ++
+}
+
+
+    public static void main(String[] args) 
+ - é padrao, ou seja sempre vai ser assim
+
+    args 
+ - é sinonimo de parametros
+ - pode ser trocado por parametros, vetorDeStrings
+
+
+    double para float
+ - ao fazer essa transformação é possivel perder dados (casting)
+
+    Strings 
+ - classe utilizada para armazenar sequencia de caracteres
+ String frase = "Bom dia";
+
+06/03
+Vetores em java
+    declarar:
+        int[] vetor = new int[3];
+    atribuição:
+        vetor[0] = 5;
+        vetor[1] = 19;
+    leitura: 
+        int valor1 = veotr[1];
+        int valor2 = vetor[2];
